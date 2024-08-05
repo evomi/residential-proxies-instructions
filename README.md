@@ -1,6 +1,7 @@
 # Residential Proxies
 
-[![Evomi Residential Proxies Banner](https://my.evomi.com/images/brand/cta.png)]([https://my.evomi.com](https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=github_residential))
+[![Evomi Residential Proxies Banner](https://my.evomi.com/images/brand/cta.png)](https://evomi.com/?utm_source=github&utm_medium=banner&utm_campaign=github_residential)
+
 
 Welcome to Evomi's Residential Proxies repository! This project demonstrates how to use our high-quality residential proxies in various programming languages.
 
