@@ -75,4 +75,8 @@ dotnet run
 
 If you encounter any issues or have questions, please don't hesitate to contact our support team at hello@evomi.com or via our live-chat.
 
+## License
+
+Apache License 2.0 - see [LICENSE](LICENSE) for details.
+
 
