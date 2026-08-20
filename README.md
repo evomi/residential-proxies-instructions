@@ -32,22 +32,22 @@ curl -x rp.evomi.com:1000 -U "${proxy_username}:${proxy_password}" https://ip.ev
 
 ### Python
 ```bash
-python python_example.py
+python python-example.py
 ```
 
 ### Node.js
 ```bash
-node nodejs_example.js
+node nodejs-example.js
 ```
 
 ### PHP
 ```bash
-php php_example.php
+php php-example.php
 ```
 
 ### Go
 ```bash
-go run go_example.go
+go run go-example.go
 ```
 
 ### Java
