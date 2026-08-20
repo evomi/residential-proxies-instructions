@@ -21,6 +21,10 @@ export proxy_password=your_password
 
 Replace `your_username` and `your_password` with the credentials provided by Evomi.
 
+## Protocol
+
+Please note, while these examples demonstrate the proxies over HTTP, Evomi also supports HTTPS and SOCKS5.
+
 ## Usage Examples
 
 We provide example scripts in 6 different programming languages to help you get started quickly:
