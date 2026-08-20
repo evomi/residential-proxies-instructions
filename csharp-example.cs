@@ -23,7 +23,7 @@ class CSharpExample
         {
             var proxy = new WebProxy
             {
-                Address = new Uri($"http://rp.evomi.com:1000"),
+                Address = new Uri("http://rp.evomi.com:1000"),
                 Credentials = new NetworkCredential(proxyUsername, proxyPassword)
             };
 
