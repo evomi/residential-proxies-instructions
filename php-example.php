@@ -19,7 +19,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://ip.evomi.com/");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_PROXY, "rp.evomi.com:1000");
-curl_setopt($ch, CURLOPT_PROXYUSERPWD, "customer-$proxyUsername:$proxyPassword");
+curl_setopt($ch, CURLOPT_PROXYUSERPWD, "$proxyUsername:$proxyPassword");
 
 // Execute cURL request
 $response = curl_exec($ch);

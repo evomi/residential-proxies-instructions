@@ -21,6 +21,10 @@ export proxy_password=your_password
 
 Replace `your_username` and `your_password` with the credentials provided by Evomi.
 
+## Protocol
+
+Please note, these examples use the HTTP proxy on `rp.evomi.com:1000`. Evomi also supports HTTPS on `rp.evomi-proxy.com:1001` — a different hostname, because that is the one our TLS certificate covers — and SOCKS5 on `rp.evomi.com:1002`. See [Proxy Protocols](https://docs.evomi.com/proxy-instructions/proxy-protocols/) for the full detail.
+
 ## Usage Examples
 
 We provide example scripts in 6 different programming languages to help you get started quickly:
@@ -32,22 +36,22 @@ curl -x rp.evomi.com:1000 -U "${proxy_username}:${proxy_password}" https://ip.ev
 
 ### Python
 ```bash
-python python_example.py
+python python-example.py
 ```
 
 ### Node.js
 ```bash
-node nodejs_example.js
+node nodejs-example.js
 ```
 
 ### PHP
 ```bash
-php php_example.php
+php php-example.php
 ```
 
 ### Go
 ```bash
-go run go_example.go
+go run go-example.go
 ```
 
 ### Java
@@ -74,5 +78,9 @@ dotnet run
 ## Support
 
 If you encounter any issues or have questions, please don't hesitate to contact our support team at hello@evomi.com or via our live-chat.
+
+## License
+
+Apache License 2.0 - see [LICENSE](LICENSE) for details.
 
 
